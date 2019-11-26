@@ -1,0 +1,9 @@
+{
+  "name": "authentication-boilerplate",
+  "version": "0.0.1",
+  "description": "node, express authentication boilerplate",
+  "main": "index.ts",
+  "repository": "https://github.com/chijosh/authentication-boilerplate",
+  "author": "chijosh",
+  "license": "MIT"
+}
