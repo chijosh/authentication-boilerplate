@@ -1,9 +1,32 @@
 {
-  "name": "authentication-boilerplate",
-  "version": "0.0.1",
-  "description": "node, express authentication boilerplate",
-  "main": "index.ts",
-  "repository": "https://github.com/chijosh/authentication-boilerplate",
-  "author": "chijosh",
-  "license": "MIT"
+	"name": "authentication-boilerplate",
+	"version": "0.0.1",
+	"description": "node, express authentication boilerplate",
+	"main": "index.ts",
+	"repository": "https://github.com/chijosh/authentication-boilerplate",
+	"author": "chijosh",
+	"license": "MIT",
+	"devDependencies": {
+		"@types/lodash": "^4.14.149",
+		"@types/mongoose": "^5.5.32",
+		"husky": "^3.1.0",
+		"lint-staged": "^9.4.3",
+		"nodemon": "^2.0.1",
+		"prettier": "^1.19.1",
+		"ts-node": "^8.5.2",
+		"tslint": "^5.20.1",
+		"tslint-config-prettier": "^1.18.0",
+		"tslint-plugin-prettier": "^2.0.1",
+		"typescript": "^3.7.2"
+	},
+	"dependencies": {
+		"@types/express": "^4.17.2",
+		"dotenv": "^8.2.0",
+		"express": "^4.17.1",
+		"lodash": "^4.17.15",
+		"mongoose": "^5.7.12"
+	},
+	"scripts": {
+		"dev": "nodemon --exec ts-node --files src/index.ts"
+	}
 }
